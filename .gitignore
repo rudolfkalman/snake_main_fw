@@ -1,0 +1,53 @@
+# --- Build Artifacts ---
+build/
+bin/
+obj/
+*.elf
+*.bin
+*.hex
+*.map
+*.su
+*.su.*
+*.o
+*.obj
+*.d
+
+# --- CMake ---
+CMakeCache.txt
+CMakeFiles/
+CMakeConfigureLog.yaml
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CMakeUserPresets.json
+.cache/
+
+# --- IDEs ---
+# IAR (EWARM)
+EWARM/settings/
+EWARM/Debug/
+EWARM/Release/
+EWARM/*.dep
+
+# VS Code / Cursor
+.vscode/
+.clangd/
+.history/
+
+# STM32CubeMX
+*.bak
+
+# --- Logs & Misc ---
+build_log.txt
+tree.txt
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Python (if using PythonWrapper) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- GDB ---
+.gdb_history

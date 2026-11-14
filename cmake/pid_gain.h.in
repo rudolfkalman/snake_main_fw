@@ -1,0 +1,6 @@
+#ifndef PID_GAIN_H
+#define PID_GAIN_H
+
+#include "@PID_GAIN_HEADER_NAME@"
+
+#endif
